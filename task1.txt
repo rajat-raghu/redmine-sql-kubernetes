@@ -1,0 +1,21 @@
+			Task 1
+-  create namespace 		
+	- redmine 	
+	- database 
+- create pod
+     - redmine 
+	- name: Redmine
+  	- image : https://hub.docker.com/redmine 
+	- namespace: redmine
+	- connectivity: ???
+	- variabes: ???
+	- service: ???
+	- credentias: As SECRETS 
+	- config: As configMaps
+	- probes: liveness & rediness to be configured
+      - database
+	- image: ??
+	- configration: ??
+	
+	
+-network policy: ony allow redmine namespace to connect to  database namespace
