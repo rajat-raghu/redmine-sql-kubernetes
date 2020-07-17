@@ -4,5 +4,4 @@ metadata:
   name: db-cm
   namespace: database
 data:
-  MYSQL_ROOT_PASSWORD: "redmine"
   MYSQL_DATABASE: "redmine"
